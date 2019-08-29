@@ -1,0 +1,438 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+<title>fifth page</title>
+<meta charset="utf-8">
+<meta name="viewport"
+content="width=device-width,
+initial-scale=1">
+<style>
+*{box-sizing:border-box;}
+body {font-family:Arial, Helvetica, sans-serif;margin : 0;}
+/*Style the header*/
+.header {
+	padding: 80px;
+	text-align:center;
+	background:#FC0;
+	color:black;}
+/*Increase the font size of the h1 element*/
+.header h1{font-size:40px;}
+.header h2{
+	color:#FC0;}
+/*Style the top navigation bar*/
+.navbar{overflow:hidden;
+/*hide overflow*/
+background-color:#FFF;/*dark background color*/}
+/*style the navigation bar links*/
+.navbar a{
+	float: left;/*make sure that the links stay side-by-side*/
+	display:block;/*change the display to block , for responsive reasons(see below)*/
+	color:Black;/*black text color*/
+	text-align:center;/*center the text*/
+	padding:14px 20px;/*add some padding*/
+	text-decoration:none;}
+/*right-aligned link*/
+.navbar a.right{
+	float:right;}
+/*change color on hover*/
+.navbar a:hover{
+	/* [disabled]background-color:#FC0; */
+	background-color:#FC0;
+	color: white;
+}
+/*column container*/
+.row{
+	display: flex;
+	flex-wrap: wrap;}
+/*create two unequal columns that sits next to each other*/
+/*sidebar/left column*/
+.side{
+	flex:30%;
+	background-color:#306
+	padding:20px;}
+/*main column*/
+.main{
+	flex:70%;
+	background-color:white;
+	padding:20px}
+/*footer*/
+.footer{
+	padding:20px
+	text-align:center;
+	background:#FC0;}
+/*responsive layout- when the screen is less than 700px wide,make the two columns stack on top of each other instead of next to each other*/
+@media screen and (max-width:700px){
+	.row{
+		flex-direction: column;}}
+/*responsive layout - when the screen is less than 400px wide,make the navigation links stack on top of each other instead of next to each other*/
+@media screen and(max-width: 400px){
+	.navbar a{
+		float:none;
+		width:100%;}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1 align="right">TIMETABLE</h1>
+<p align="right">let's mess with my schedule</p></div>
+
+<div class="navbar">
+<a href="HOME SITE.html">HOME</a>
+<a href="PROFILE SITE.html">PROFILE</a>
+<a href="FORM SITE.html">FORM</a>
+<a href="VIDEO SITE.html">VIDEO</a>
+<a href="INTEREST SITE.html">INTEREST</a>
+<class="center"></a></div>
+<p align="center"><body bgcolor="#33FF99"><h1 align="center">Holy-Day Schedule !</h1></p>
+<h2 align="center"><table border="1" bordercolor="black" bgcolor="white" align="center"></h2>
+
+<tr><th rowspan="3" bgcolor="#00FFFF">DAY/TIME</th></tr>
+<tr><th colspan="8" bgcolor="#FFCC00">Morning</th></tr>
+<tr>
+<td align="center">6:30AM
+ <td align="center">8:00AM
+ <td align="center">10:00AM
+ <td align="center">10:30AM
+ <td align="center">11:00AM
+</td></tr>
+
+<tr>
+ <td align="center" rowspan="7" bgcolor="#FF00FF">MONDAY
+ <td align="center">Wake up & Tidy up
+ <td align="center">Doin' a task that<br> need to be completed<br> (Exp. Wash Clothes)
+ <td align="center">30 minutes reading<br>(Any Book/Any readable Website)
+ <td align="center">REST
+ <td align="center">Social Media Time</td>
+ </tr>
+ <tr><th colspan="8" bgcolor="#FFCC00">Mid-day</th></tr>
+ <tr>
+<td align="center">12:00PM
+ <td align="center">12:30PM
+ <td align="center">1:30PM</td>
+ </tr>
+<td align="center">Sleep for 30 minutes
+ <td align="center">Drawing and Coloring
+ <td align="center">Watch Anime</td>
+</tr>
+<tr><th colspan="8" bgcolor="#FFCC00">Evening-Night Owls</th></tr>
+ <tr>
+<td align="center">4:00PM
+ <td align="center">4:30PM
+ <td align="center">5:00PM
+ <td align="center">6:00PM
+ <td align="center">8:00PM
+ <td align="center">10:00PM
+ <td align="center">11:00PM
+ <td align="center">12:00AM</td>
+ </tr>
+<td align="center">TEA TIME
+ <td align="center">Zumba/Work-out
+ <td align="center">REST
+ <td align="center">Shower
+ <td align="center">Doin' my task/<br>Assignment/<br>House chores
+ <td align="center">Mobile<br>Legends<br>(Game)
+ <td align="center">Set up what first<br>Need to do Tomorrow
+ <td align="center">SLEEP</td>
+</tr>
+
+<tr><th rowspan="3" bgcolor="#00FFFF"></th></tr>
+<tr><th colspan="8" bgcolor="#FFCC00">Morning</th></tr>
+<tr>
+<td align="center">6:30AM
+ <td align="center">8:00AM
+ <td align="center">10:00AM
+ <td align="center">10:30AM
+ <td align="center">11:00AM
+</td></tr>
+
+<tr>
+ <td align="center" rowspan="7" bgcolor="#9933FF">TUESDAY
+ <td align="center">Wake up & Tidy up
+ <td align="center">Doin' a task that<br> need to be completed
+ <td align="center">30 minutes reading<br>(Any Book/Any readable Website)
+ <td align="center">REST
+ <td align="center">Social Media Time</td>
+ </tr>
+ <tr><th colspan="8" bgcolor="#FFCC00">Mid-day</th></tr>
+ <tr>
+<td align="center">12:00PM
+ <td align="center">12:30PM
+ <td align="center">1:30PM</td>
+ </tr>
+<td align="center">Sleep for 30 minutes
+ <td align="center">Drawing and Coloring
+ <td align="center">Watch Anime</td>
+</tr>
+<tr><th colspan="8" bgcolor="#FFCC00">Evening-Night Owls</th></tr>
+ <tr>
+<td align="center">4:00PM
+ <td align="center">4:30PM
+ <td align="center">5:00PM
+ <td align="center">6:00PM
+ <td align="center">8:00PM
+ <td align="center">10:00PM
+ <td align="center">11:00PM
+ <td align="center">12:00AM</td>
+ </tr>
+<td align="center">TEA TIME
+ <td align="center">Zumba/Work-out
+ <td align="center">REST
+ <td align="center">Shower
+ <td align="center">Doin' my task/<br>Assignment/<br>House chores
+ <td align="center">Mobile<br>Legends<br>(Game)
+ <td align="center">Set up what first<br>Need to do Tomorrow
+ <td align="center">SLEEP</td>
+</tr>
+
+<tr><th rowspan="3" bgcolor="#00FFFF"></th></tr>
+<tr><th colspan="8" bgcolor="#FFCC00">Morning</th></tr>
+<tr>
+<td align="center">6:30AM
+ <td align="center">8:00AM
+ <td align="center">10:00AM
+ <td align="center">10:30AM
+ <td align="center">11:00AM
+</td></tr>
+
+<tr>
+ <td align="center" rowspan="7" bgcolor="#99CCFF">WEDNESDAY
+ <td align="center">Wake up & Tidy up
+ <td align="center">Doin' a task that<br> need to be completed
+ <td align="center">30 minutes reading<br>(Any Book/Any readable Website)
+ <td align="center">REST
+ <td align="center">Social Media Time</td>
+ </tr>
+ <tr><th colspan="8" bgcolor="#FFCC00">Mid-day</th></tr>
+ <tr>
+<td align="center">12:00PM
+ <td align="center">12:30PM
+ <td align="center">1:30PM</td>
+ </tr>
+<td align="center">Sleep for 30 minutes
+ <td align="center">Drawing and Coloring
+ <td align="center">Watch Anime</td>
+</tr>
+<tr><th colspan="8" bgcolor="#FFCC00">Evening-Night Owls</th></tr>
+ <tr>
+<td align="center">4:00PM
+ <td align="center">4:30PM
+ <td align="center">5:00PM
+ <td align="center">6:00PM
+ <td align="center">8:00PM
+ <td align="center">10:00PM
+ <td align="center">11:00PM
+ <td align="center">12:00AM</td>
+ </tr>
+<td align="center">TEA TIME
+ <td align="center">Take a walk
+ <td align="center">REST
+ <td align="center">Shower
+ <td align="center">Doin' my task/<br>Assignment/<br>House chores
+ <td align="center">Mobile<br>Legends<br>(Game)
+ <td align="center">Set up what first<br>Need to do Tomorrow
+ <td align="center">SLEEP</td>
+</tr>
+
+<tr><th rowspan="3" bgcolor="#00FFFF"></th></tr>
+<tr><th colspan="8" bgcolor="#FFCC00">Morning</th></tr>
+<tr>
+<td align="center">6:30AM
+ <td align="center">8:00AM
+ <td align="center">10:00AM
+ <td align="center">10:30AM
+ <td align="center">11:00AM
+</td></tr>
+
+<tr>
+ <td align="center" rowspan="7" bgcolor="#CC33FF">THURSDAY
+ <td align="center">Wake up & Tidy up
+ <td align="center">Doin' a task that<br> need to be completed
+ <td align="center">30 minutes reading<br>(Any Book/Any readable Website)
+ <td align="center">REST
+ <td align="center">Social Media Time</td>
+ </tr>
+ <tr><th colspan="8" bgcolor="#FFCC00">Mid-day</th></tr>
+ <tr>
+<td align="center">12:00PM
+ <td align="center">12:30PM
+ <td align="center">1:30PM</td>
+ </tr>
+<td align="center">Sleep for 30 minutes
+ <td align="center">Drawing and Coloring
+ <td align="center">Watch Chinese Drama</td>
+</tr>
+<tr><th colspan="8" bgcolor="#FFCC00">Evening-Night Owls</th></tr>
+ <tr>
+<td align="center">4:00PM
+ <td align="center">4:30PM
+ <td align="center">5:00PM
+ <td align="center">6:00PM
+ <td align="center">8:00PM
+ <td align="center">10:00PM
+ <td align="center">11:00PM
+ <td align="center">12:00AM</td>
+ </tr>
+<td align="center">TEA TIME
+ <td align="center">Zumba/Work-out
+ <td align="center">REST
+ <td align="center">Shower
+ <td align="center">Doin' my task/<br>Assignment/<br>House chores
+ <td align="center">Mobile<br>Legends<br>(Game)
+ <td align="center">Set up what first<br>Need to do Tomorrow
+ <td align="center">SLEEP</td>
+</tr>
+
+<tr><th rowspan="3" bgcolor="#00FFFF"></th></tr>
+<tr><th colspan="8" bgcolor="#FFCC00">Morning</th></tr>
+<tr>
+<td align="center">6:30AM
+ <td align="center">8:00AM
+ <td align="center">10:00AM
+ <td align="center">10:30AM
+ <td align="center">11:00AM
+</td></tr>
+
+<tr>
+ <td align="center" rowspan="7" bgcolor="#CCCCFF">FRIDAY
+ <td align="center">Wake up & Tidy up
+ <td align="center">Doin' a task that<br> need to be completed
+ <td align="center">30 minutes reading<br>(Any Book/Any readable Website)
+ <td align="center">REST
+ <td align="center">Social Media Time</td>
+ </tr>
+ <tr><th colspan="8" bgcolor="#FFCC00">Mid-day</th></tr>
+ <tr>
+<td align="center">12:00PM
+ <td align="center">12:30PM
+ <td align="center">1:30PM</td>
+ </tr>
+<td align="center">Sleep for 30 minutes
+ <td align="center">Drawing and Coloring
+ <td align="center">Watch Anime</td>
+</tr>
+<tr><th colspan="8" bgcolor="#FFCC00">Evening-Night Owls</th></tr>
+ <tr>
+<td align="center">4:00PM
+ <td align="center">4:30PM
+ <td align="center">5:00PM
+ <td align="center">6:00PM
+ <td align="center">8:00PM
+ <td align="center">10:00PM
+ <td align="center">11:00PM
+ <td align="center">12:00AM</td>
+ </tr>
+<td align="center">TEA TIME
+ <td align="center">Take a walk
+ <td align="center">REST
+ <td align="center">Shower
+ <td align="center">Doin' my task/<br>Assignment/<br>House chores
+ <td align="center">Mobile<br>Legends<br>(Game)
+ <td align="center">Set up what first<br>Need to do Tomorrow
+ <td align="center">SLEEP</td>
+</tr>
+
+<tr><th rowspan="3" bgcolor="#00FFFF"></th></tr>
+<tr><th colspan="8" bgcolor="#FFCC00">Morning</th></tr>
+<tr>
+<td align="center">6:30AM
+ <td align="center">8:00AM
+ <td align="center">10:00AM
+ <td align="center">10:30AM
+ <td align="center">11:00AM
+</td></tr>
+
+<tr>
+ <td align="center" rowspan="7" bgcolor="#FF33FF">SATURDAY
+ <td align="center">Wake up & Tidy up
+ <td align="center">Doin' a task that<br> need to be completed
+ <td align="center">30 minutes reading<br>(Any Book/Any readable Website)
+ <td align="center">REST
+ <td align="center">Social Media Time</td>
+ </tr>
+ <tr><th colspan="8" bgcolor="#FFCC00">Mid-day</th></tr>
+ <tr>
+<td align="center">12:00PM
+ <td align="center">12:30PM
+ <td align="center">1:30PM</td>
+ </tr>
+<td align="center">Sleep for 30 minutes
+ <td align="center">Drawing and Coloring
+ <td align="center">Watch Chinese Drama</td>
+</tr>
+<tr><th colspan="8" bgcolor="#FFCC00">Evening-Night Owls</th></tr>
+ <tr>
+<td align="center">4:00PM
+ <td align="center">4:30PM
+ <td align="center">5:00PM
+ <td align="center">6:00PM
+ <td align="center">8:00PM
+ <td align="center">10:00PM
+ <td align="center">11:00PM
+ <td align="center">12:00AM</td>
+ </tr>
+<td align="center">TEA TIME
+ <td align="center">REST
+ <td align="center">OUTSTANDING REST
+ <td align="center">Shower
+ <td align="center">Doin' my task/<br>Assignment/<br>House chores
+ <td align="center">Mobile<br>Legends<br>(Game)
+ <td align="center">Set up what first<br>Need to do Tomorrow
+ <td align="center">SLEEP</td>
+</tr>
+
+<tr><th rowspan="3" bgcolor="#00FFFF"></th></tr>
+<tr><th colspan="8" bgcolor="#FFCC00">Morning</th></tr>
+<tr>
+<td align="center">6:30AM
+ <td align="center">8:00AM
+ <td align="center">10:00AM
+ <td align="center">10:30AM
+ <td align="center">11:00AM
+</td></tr>
+
+<tr>
+ <td align="center" rowspan="7" bgcolor="#FFFF99">SUNDAY
+ <td align="center">Wake up & Tidy up
+ <td align="center">SELF PREPARE(Shower,put on beautiful clothes)
+ <td align="center">Go to Church
+ <td align="center">At Church
+ <td align="center">Still here at Church</td>
+ </tr>
+ <tr><th colspan="8" bgcolor="#FFCC00">Mid-day</th></tr>
+ <tr>
+<td align="center">12:00PM
+ <td align="center">12:30PM
+ <td align="center">1:30PM</td>
+ </tr>
+<td align="center">Arrive Home
+ <td align="center">Sleep for 1 hour
+ <td align="center">Watch Chinese Drama (Episode continue)</td>
+</tr>
+<tr><th colspan="8" bgcolor="#FFCC00">Evening-Night Owls</th></tr>
+ <tr>
+<td align="center">4:00PM
+ <td align="center">4:30PM
+ <td align="center">5:00PM
+ <td align="center">6:00PM
+ <td align="center">8:00PM
+ <td align="center">10:00PM
+ <td align="center">11:00PM
+ <td align="center">12:00AM</td>
+ </tr>
+<td align="center">TEA TIME
+ <td align="center">REST
+ <td align="center">REST AGAIN
+ <td align="center">Shower
+ <td align="center">Doin' my task/<br>Assignment/<br>House chores
+ <td align="center">Mobile<br>Legends<br>(Game)
+ <td align="center">Set up what first<br>Need to do Tomorrow
+ <td align="center">SLEEP</td>
+</tr>
+</center>
+ </table> 
+<div class="footer">
+<h4>Please submit your feedback<a href="FORM SITE.html"> here</h4>
+</div>
+</body>
+</html>

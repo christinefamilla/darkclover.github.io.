@@ -1,0 +1,114 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+<title>Second Page</title>
+<meta charset="utf-8">
+<meta name="viewport"
+content="width=device-width,
+initial-scale=1">
+<style>
+*{box-sizing:border-box;}
+body {font-family:Arial, Helvetica, sans-serif;margin : 0;}
+/*Style the header*/
+.header {
+	padding: 80px;
+	text-align:center;
+	background:#FC0;
+	color:white;}
+/*Increase the font size of the h1 element*/
+.header h1{font-size:40px;}
+.header h2{
+	color:#FC0;}
+/*Style the top navigation bar*/
+.navbar{overflow:hidden;
+/*hide overflow*/
+background-color:#FFF;/*dark background color*/}
+/*style the navigation bar links*/
+.navbar a{
+	float: left;/*make sure that the links stay side-by-side*/
+	display:block;/*change the display to block , for responsive reasons(see below)*/
+	color:Black;/*black text color*/
+	text-align:center;/*center the text*/
+	padding:14px 20px;/*add some padding*/
+	text-decoration:none;}
+/*right-aligned link*/
+.navbar a.right{
+	float:right;}
+/*change color on hover*/
+.navbar a:hover{
+	background-color:#FC0;
+	color:white;}
+/*column container*/
+.row{
+	display: flex;
+	flex-wrap: wrap;}
+/*create two unequal columns that sits next to each other*/
+/*sidebar/left column*/
+.side{
+	flex:30%;
+	background-color:#306
+	padding:20px;}
+/*main column*/
+.main{
+	flex:70%;
+	background-color:white;
+	padding:20px}
+/*footer*/
+.footer{
+	padding:20px
+	text-align:center;
+	background:#FC0;}
+/*responsive layout- when the screen is less than 700px wide,make the two columns stack on top of each other instead of next to each other*/
+@media screen and (max-width:700px){
+	.row{
+		flex-direction: column;}}
+/*responsive layout - when the screen is less than 400px wide,make the navigation links stack on top of each other instead of next to each other*/
+@media screen and(max-width: 400px){
+	.navbar a{
+		float:none;
+		width:100%;}
+</style>
+</head>
+<body>
+<div class="header">
+<h1 align="right">PROFILE</h1>
+<p align="right">_worth of million dollars</p></div>
+<div class="navbar">
+<a href="HOME SITE.html">HOME</a>
+<a href="PROFILE SITE.html">PROFILE</a>
+<a href="FORM SITE.html">FORM</a>
+<a href="VIDEO SITE.html">VIDEO</a>
+<a href="INTEREST SITE.html">INTEREST</a>
+<class="center"></a></div>
+<div class="image" align="center">
+<img src="IMG-20180828-WA0011.jpg" width="405" height="550">
+<div class="main">
+<h2>Someday, there’s going to be an updated version of me.</h2>
+<p>Didn't state any joke, so let us be formal.</p>
+<dl><dt><font color="#FFCC00">WHO // </font><font color="#000000"> Christine Familla</font></dt></dl>
+<dl><dt><font color="#FFCC00">WHAT // </font><font color="#000000"> Computer Graphic Design's Student</font></dl></dt>
+<dl><dt><font color="#FFCC00">WHERE // </font><font color="#000000"> Cosmopoint College Kota Kinabalu</font></dt></dl>
+<dl><dt><font color="#FFCC00">WHEN //</font><font color="#000000"> 2017 - Current</font></dt></dl>
+<dl><dt><font color="#FFCC00">WHY // </font><font color="#000000"> Passion</font></dt></dl>
+<br>
+<p>People often called me RIST, I am 20 years old and about to start my internship for Computer Graphic Design courses.<br>
+<p>
+I started designing and drawing from a young age. However, it's because I am the first child that I need to focus more on my academic performances for core subject, instead of enhancing my skills.<br>
+<p>
+Let's make it short.<br>
+<p>
+After get through of life upside down. I finally found my passion here, it still in my heart. Which I met a great teammates :
+<ul type="square"><font color="#0000CC">
+<li>Photoshop</li>
+<li>Illustrator</li>
+<li>Indesign</li>
+<li>Animate</li>
+<li>Dreamweaver</li></font></ul>
+<p> And now you are viewing my first website. Aren't you lucky? LOL<br>
+<p>Some facts about me:<br>
+<p>I get tired of everything but I always want to try new things.So,I apologize if I write everything here.</p>
+<div class="footer">
+<h4>Please submit your feedback<a href="FORM SITE.html"> here</a></h4>
+</div>
+</body>
+</html>
